@@ -1,0 +1,245 @@
+body{
+	font-family: "Poppins", sans-serif;
+	font-size:16px;
+	margin:0;
+	padding:0; 
+}
+div, p, input, button, form, span, a ,ul , li{
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p{
+	margin:0;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.wrapper{
+	display: flex;
+	
+	  align-items:center
+}
+.navigationbar{
+	word-spacing:45px;
+}
+.navigationbar a{
+	color: #ffff;
+	text-decoration: none;
+	font-size: 14px;
+}
+.navigationbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigationbar li {
+  display: inline;
+}
+.header{
+	background: url("../img/Hero bg.png")no-repeat center bottom/cover;
+	height: 900px;
+
+	padding-top: 32px; 
+	color: #ffff; 	
+}
+.heading{
+	width: 650px;
+}
+.heading h3{
+	letter-spacing: 2.5px;font-weight:
+	normal; word-spacing: 3px; 
+	padding-bottom: 24px;
+}
+.heading h1{
+	width: 574px; 
+	font-size: 66px; 
+	line-height:1.1; 
+	letter-spacing: 1px;
+	padding-bottom: 19px;
+
+}
+.btn{
+	text-decoration: none;
+	color: #ffff;
+	padding: 13px 30px 13px;
+	background: linear-gradient(to bottom left, #9224D6, #BD87DE);
+	border-radius: 25px;
+	font-style: 14px;
+	margin-right: 5px;
+	
+}
+.btn2{
+	text-decoration: none;
+	color: #ffff;
+	padding: 13px 30px 13px;
+	border: 1px solid;
+	border-radius: 25px;
+	font-style: 14px;
+	word-spacing: 0;
+
+}
+.btn3{
+	text-decoration: none;
+	color: #ffff;
+	padding: 7px 35px 8px;
+	border: 1px solid;
+	border-radius: 25px;
+	font-style: 14px;
+	word-spacing: 0;
+
+}
+.heading h5{
+	padding-top: 55px;
+	letter-spacing: 2px;
+	word-spacing: 0;
+	padding-bottom: 15px;
+}
+.Episodes{
+	padding-top: 90px;
+}
+.wrap_top{
+	display:flex;
+	justify-content:space-between; 
+	padding-bottom: 45px;
+}
+.wrap_episodes{
+	display: flex;
+	padding-bottom: 55px;
+}
+.wrap_episode div{
+	width: 376px;
+}
+
+.wrap_episode h2{
+	font-size: 20px; 	
+}
+.wrap_time{
+	display:flex;
+}
+.ep{
+	font-size: 20px;
+	padding:13px 21px 11px 26px;
+	background-color: #1C1B1E;
+	color: #ffff;
+	width: 100px;
+	 border-radius: 9px 0px;
+    right: -276px; bottom:-250px; z-index: 1;
+	 position:relative; 
+}
+
+/*HOST*/
+
+.Host{
+	padding-bottom: 60px;
+}
+
+.wrap_host{
+	display: flex;
+	padding-top: 50px;
+}
+/*Topics*/
+.Topics{
+	padding-bottom: 45px;
+}
+.wrap_episodes2{
+	display:flex;
+	justify-content:space-between;
+}
+
+/*Keep*/
+.Keep{
+	padding-top: 45px;
+	padding-bottom: 80px;
+	background: url('../img/Hero bg.png') no-repeat center/cover;
+	border-radius: 15px;
+	height: 355px;
+	width: 1157px;
+	margin:0px 189px 0px;
+}
+
+.div_wrapp{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #ffff;
+}
+.div_wrapp h1{
+	padding-bottom: 20px; 
+	padding-top: 100px;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+}
+.inputt{
+	background-color: transparent;
+	border-radius:5px;
+	border: 1px #ffff solid; 
+	color: #ffff;
+	padding:12px 311px 12px 30px;
+
+}
+ .inputt input::-webkit-input-placeholder {
+	letter-spacing: 0.40mm;
+	opacity:1;
+	font-family: 'Poppins', sans-serif;!important;	
+}
+.btn4{
+	text-decoration: none;
+	color: #ffff;
+	padding: 10px 31px 12px;
+	background: linear-gradient(to bottom left, #9224D6, #BD87DE);
+	border-radius: 5px;
+	font-style: 14px;
+	margin-right: 5px;
+	position: relative;
+	 right: -190px; bottom:42px; z-index: 1;
+	font-size: 14px;
+}
+
+/*footer*/
+
+.footer{
+	padding-top: 95px;
+	padding-bottom:17px;
+}
+.wrapp_footer{
+	display: flex;
+	padding-bottom: 15px;
+
+}
+.wrap_right{
+	width: 553px;
+	margin-right: 110px;
+
+}
+.twitter{
+	display: flex;
+	padding-top: 65px;
+}
+.twitter a{
+	text-decoration: none;
+	color: black;
+
+}
+.wrap_left{
+	display:flex;
+
+}
+.wrap_left h4{
+	padding-bottom: 35px;
+}
+.columns a{
+	padding-bottom:15px;
+	text-decoration: none;
+	display: flex;
+	 flex-direction: column;
+	
+	 color:#000000;
+	 opacity:0.7; 
+}
+hr {
+    border: none; /* Убираем границу */
+    background-color: #00000026; /* Цвет линии */
+    height: 2px; /* Толщина линии */
+
+   }
